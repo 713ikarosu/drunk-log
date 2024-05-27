@@ -1,11 +1,6 @@
 "use client";
 import GoogleMapReact from "google-map-react";
-// import dynamic from "next/dynamic";
 
-// const GoogleMapReact = dynamic(
-//   () => import("google-map-react"),
-//   { ssr: false } // This will make the component only rendered on client-side
-// );
 export default function MainMap() {
   const defaultProps = {
     center: {
