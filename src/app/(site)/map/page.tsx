@@ -1,5 +1,4 @@
 "use client";
-import GoogleMapReact from "google-map-react";
 import AnyReactComponent from "google-map-react";
 import { GoogleMap } from "./_components/GoogleMap";
 import { Marker } from "./_components/Marker";
