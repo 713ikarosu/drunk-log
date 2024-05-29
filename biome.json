@@ -1,21 +1,20 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
-	"organizeImports": {
-		"enabled": true
-	},
-	"javascript": {
+  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "javascript": {
     "formatter": {
       "quoteStyle": "single",
       "semicolons": "always",
-			"indentStyle": "space"
+      "indentStyle": "space"
     }
   },
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true
-		}
-	},
-	"formatter": {
-	}
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "formatter": {}
 }
