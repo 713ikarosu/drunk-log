@@ -1,7 +1,6 @@
-"use client";
-import AnyReactComponent from "google-map-react";
-import { GoogleMap } from "./_components/GoogleMap";
-import { Marker } from "./_components/Marker";
+'use client';
+import { GoogleMap } from './_components/GoogleMap';
+import { Marker } from './_components/Marker';
 
 export default function MainMap() {
   const defaultProps = {
@@ -15,7 +14,7 @@ export default function MainMap() {
   return (
     <main>
       <h1 className="text-6xl font-bold">Map</h1>
-      <div style={{ height: "100vh", width: "100%" }}>
+      <div style={{ height: '100vh', width: '100%' }}>
         <GoogleMap
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}

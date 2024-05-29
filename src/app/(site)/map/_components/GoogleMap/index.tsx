@@ -1,6 +1,6 @@
-"use client";
-import type { ReactNode } from "react";
-import GoogleMapReact from "google-map-react";
+'use client';
+import type { ReactNode } from 'react';
+import GoogleMapReact from 'google-map-react';
 
 interface GoogleMapProps {
   children: ReactNode;
@@ -13,7 +13,7 @@ export const GoogleMap = ({ children, ...props }: GoogleMapProps) => {
       bootstrapURLKeys={{
         key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
           ? process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
-          : "",
+          : '',
       }}
       {...props}
     >
