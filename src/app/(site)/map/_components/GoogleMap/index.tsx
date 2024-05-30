@@ -1,6 +1,6 @@
 'use client';
-import type { ReactNode } from 'react';
 import GoogleMapReact from 'google-map-react';
+import type { ReactNode } from 'react';
 
 interface GoogleMapProps {
   children: ReactNode;

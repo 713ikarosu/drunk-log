@@ -1,13 +1,15 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+  "files": {
+    "ignore": ["public"]
+  },
   "organizeImports": {
     "enabled": true
   },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
-      "semicolons": "always",
-      "indentStyle": "space"
+      "semicolons": "always"
     }
   },
   "linter": {
@@ -16,5 +18,7 @@
       "recommended": true
     }
   },
-  "formatter": {}
+  "formatter": {
+    "indentStyle": "space"
+  }
 }
