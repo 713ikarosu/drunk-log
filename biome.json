@@ -9,8 +9,7 @@
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
-      "semicolons": "always",
-      "indentStyle": "space"
+      "semicolons": "always"
     }
   },
   "linter": {
@@ -19,5 +18,7 @@
       "recommended": true
     }
   },
-  "formatter": {}
+  "formatter": {
+    "indentStyle": "space"
+  }
 }
